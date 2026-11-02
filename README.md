@@ -6,8 +6,10 @@ Case study for the IU course **DLBDSMLUSL01 – Machine Learning: Unsupervised L
 Group employees from a mental health survey into interpretable clusters, to help an HR department target a preventive mental health programme.
 
 ## Data
-OSMI Mental Health in Tech Survey 2016 (1,433 respondents, 63 questions).
+OSMI Mental Health in Tech Survey 2016 (1,433 respondents, 63 questions) by Open Sourcing Mental Illness (OSMI).
 Source: https://www.kaggle.com/osmi/mental-health-in-tech-2016
+A copy of the original, unmodified CSV is included in this repository (`mental-heath-in-tech-2016_20161114.csv`).
+The dataset is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Approach
 1. **Data exploration:** missing values, messy free-text answers, unrealistic ages
@@ -26,7 +28,7 @@ Three overlapping employee profiles were found:
 
 ## How to run
 1. Open `mental_health_case_study.ipynb` in Google Colab.
-2. Download the CSV from Kaggle and upload it to your Google Drive.
+2. Upload the CSV from this repository (or from Kaggle) to your Google Drive.
 3. In the setup cell, change `path` to the location of the CSV in your Drive.
 4. Run all cells (Runtime → Run all). Charts are saved to the `figures` folder set in the setup cell.
 
