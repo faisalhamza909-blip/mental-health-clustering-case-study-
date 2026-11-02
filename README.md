@@ -5,10 +5,12 @@ Case study for the IU course **DLBDSMLUSL01 – Machine Learning: Unsupervised L
 ## Goal
 Group employees from a mental health survey into interpretable clusters, to help an HR department target a preventive mental health programme.
 
-## Data
 OSMI Mental Health in Tech Survey 2016 (1,433 respondents, 63 questions) by Open Sourcing Mental Illness (OSMI).
+
 Source: https://www.kaggle.com/osmi/mental-health-in-tech-2016
+
 A copy of the original, unmodified CSV is included in this repository (`mental-heath-in-tech-2016_20161114.csv`).
+
 The dataset is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Approach
